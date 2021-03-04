@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="layout12.css">
+</head>
+
+<body>
+    <div id="page">
+        <header>
+            <nav class="top-right">
+                <a href="dangnhap.html">ĐĂNG NHẬP</a>&nbsp;
+                <a href="dangki.html">ĐĂNG KÍ</a>&nbsp;
+                <a href="#">QUÊN MẬT KHẨU</a>
+            </nav>
+            <Div class="company-info">
+               <h1>FPT POLYTECHNIC<hr/> </h1>
+               <H5>  THỰC HỌC - THỰC NGHIỆM </H5> 
+            </Div>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li> <a href="index.html">Trang chủ   |</a> </li>
+                <li> <a href="gioithieu">Giới thiệu |</a> </li>
+                <li> <a href="#">Liên hệ   |</a>
+                    <ul>
+                        <li>
+                            <a href="mobile.html">Mobile</a>
+                        </li>
+                        <li>
+                            <a href="email.html">Email</a>
+                        </li>
+                    </ul>
+                </li>
+                <li> <a href="#">Góp ý   |</a> </li>
+                <li> <a href="#">Hỏi đáp   |</a> </li>
+            </ul>
+        </nav>
+
+        <section>
+          <article>
+            <h2>ĐĂNG KÍ THÀNH VIÊN</h2> 
+           
+            <fieldset>
+                <legend>Mẫu Đăng Kí</legend>
+            <form action="xuly.php" method="get" enctype="multipart/form-data">
+        <div class="form-group">
+
+           <lable>HỌ VÀ TÊN</lable><br/>
+            <input type="text" name="password" class="form-control"/><br/>
+     
+
+            <lable>GIỚI TÍNH</lable><br/>
+            <lable><input class="form-group lable" type="radio" name="gender" value="male" checked="checked"/> Nam </lable> <br/>
+            <lable><input class="form-group lable" type="radio" name="gender" value="female"/> Nữ </lable> <br/>
+           
+            <lable>NGÀY SINH</lable><br/>
+            <input class="form-control" type="date/month/year" name="date"/><br/>
+
+            <lable>QUỐC TỊCH</lable><br/>
+            <input class="form-control" type="text" readonly value="Việt Nam"/><br/>
+                  
+
+            </select>  <br/>
+            <lable>NGHỀ NGHIỆP</lable>
+            <select class="form-group lable">
+                <option value=" ">Công nhân</option>
+                <option value=" "> Nông dân</option>
+                <option value=" ">Văn phòng</option>
+                <option value=" ">freelancer</option>
+                <option value=" "> Giáo viên</option>
+                <option value=" "> IT</option>
+                <option value=" ">Khác</option>
+             
+            </select>  <br/>
+
+
+            <lable>  SỞ THÍCH </lable><br/>
+            <lable><input class="form-group lable" type="checkbox" name="subject" value="yoga"/>Thể thao</lable>
+            <lable><input class="form-group lable"  type="checkbox" name="subject" value="thien"/>Du lịch</lable>
+            <lable><input class="form-group lable" type="checkbox" name="subject" value="tinhtam"/>Âm nhạc</lable> <br/>
+            <lable><input class="form-group lable" type="checkbox" name="subject" value="tinhtam"/>Ẩm thực</lable> <br/>
+
+            <lable> GHI CHÚ</lable><br/>
+            <textarea class="form-group lable" rows="3" cols="50"></textarea><br/>
+
+            
+
+            
+            <button class="form-button" type="submit"> Đăng kí</button>               
+            <button class="form-button" type="submit"> Nhập lại</button>
+            <button class="form-button" disabled> Xóa</button>
+            </form>
+            </fieldset>     
+        </div>
+
+    </article>
+        </section>
+            <aside>
+                <ul class="vmenu">
+                    <li> <a href="index.html">Trang chủ</a>
+                        <a href="#">Giới thiệu</a>
+                        <a href="#">Liên hệ</a>
+                        <a href="#">Góp ý</a>
+                        <a href="#">Hỏi đáp</a>
+                    </li>
+                </ul>
+            </aside>
+        </section>
+        <footer>FPT Polytechnic © 2017. All rights reserved.</footer>
+    </div>
+</body>
+
+</html>

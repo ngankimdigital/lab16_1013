@@ -1,0 +1,312 @@
+body{
+    padding:0px;
+    margin: 0px  100px;
+}
+#page{
+
+}
+header{
+    height:0px;
+    background-image: url('fpoly.jpg');
+    background-size: 100% 100%;
+    padding-bottom:25%;
+    position:relative;
+   
+}
+nav{
+    line-height:40px;
+    background-color:orangered;
+    text-align:left;
+    font-variant:small-caps;
+    font-size: larger;
+    color:white;
+    font-weight: bold;
+}
+
+section{
+    width: 100%;
+}
+article{
+    min-height:400px;
+    width:80%;
+    background-color:white;
+    float:left;
+}
+aside{
+    min-height:400px;
+    width:20%;
+    background-color: white;
+    float:right;
+}
+footer{
+    border-top:5px double black;
+    line-height:50px;
+    background-color: rgb(248, 58, 11);
+    text-align:center;
+    font-variant:small-caps;
+    clear:both;
+}
+nav>a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px; 
+    font-weight: bold;
+    font-size: 20px;
+}
+nav>a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+iframe[name=page]{
+    width: 100%;
+    min-height: 400px;  
+}
+/*Menu trong aside*/
+ul.vmenu{
+    margin:0px;
+    padding:5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px orange;
+    list-style: none;
+}
+ul.vmenu>li>a{
+    display: block;
+    line-height: 60px;
+    text-decoration: none;
+    font-variant: small-caps;
+    color: orangered;
+    padding-left: 50px;
+    border-bottom: 1px dotted orangered;
+    background: url('sun.png') no-repeat left center;
+}
+ul.vmenu>li>a:hover{
+    background: url('fr.png') no-repeat left center;
+    font-weight: bold;
+    color: red
+}
+/*bài 2 lab 7*/
+
+.col-25{
+    width:25%;
+    float:left;
+}
+.prod{
+     border-radius:40px;
+     box-shadow:0 0 5px gray;
+     margin: 20px;
+     padding: 50px;
+     text-align:center;
+     position: relative;
+}
+
+.prod>.name{
+    font-variant:small-caps;
+    color:orangered;
+    font-size: 30px;
+}
+.prod>.image{
+     max-width:98%;
+     height:150px;
+     margin-bottom:10px;
+}
+.prod>.price{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
+    font-family:Impact;
+    font-size: 35px;
+    color:orange;
+    margin: 10px;
+}
+ .prod>.icons{
+    position:absolute;
+    right: 20px;
+    bottom: 5px;
+    width: 25px;
+}
+ .prod>.new-icon{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.top-right{
+    Position:absolute;
+    Top:0px;
+    Right:0px;
+    Border-bottom-left-radius: 30px;
+}
+.company-info{
+    
+        color:white;
+        text-shadow: 0 0 10px orangered;
+        font-size: x-large;
+        font-weight: 300;
+        position: absolute;
+        left: 15px;
+        top: 180px;  
+        font-variant:small-caps; 
+        font-size: 40px;
+        line-height: 2px;   
+        text-decoration: orangered;  
+        font-weight: bold;            
+}    
+.company-info h5{     
+    color:orangered;
+    text-shadow: 20px 20px 30px black;
+    font-size: x-large;
+    font-weight: 100;
+    position: absolute;
+    left: 15px;
+    font-variant:small-caps; 
+    font-size: 20px;
+    letter-spacing: 20px; 
+    text-decoration: orangered;  
+    font-weight: bold;    
+    top: 90px;
+      
+}     
+
+.menu>ul>li{
+    display: inline-block;
+}
+    .menu>ul>li>a{
+    display: block;
+}
+.menu>ul{
+      padding: 0px;
+      margin: 0px;
+      list-style: none;
+      border-radius: 3px;
+      background-color: orangered;
+      text-align: center;
+    
+      
+} 
+ .menu>ul>li>a{
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: large;
+    color: white;
+    padding: 0 10px;
+    line-height: 40px;
+    font-size: 24px;
+}
+.menu>ul>li>a:hover{
+    color: yellow;
+} 
+.menu ul ul{
+    position: absolute;
+    display: none;
+    padding:0px;
+    margin: 0px;
+    list-style: none;
+    border-radius:3px;
+    width:200px;
+    background-color:white;
+    box-shadow:0 0 1px gray;
+
+}
+.menu ul ul a{
+    display:block;
+    line-height:30px;
+ color:orangered;
+text-decoration:none;
+ font-variant:small-caps;
+font-size:larger;
+ padding:0 10 pixel;
+
+}
+.menu>ul>li:hover>ul{
+    display: block;
+    z-index: 1;
+} 
+.menu ul ul a:hover{
+    background-color: orangered;
+    color: white;
+}
+.form-group{
+    margin: 10px 2px;
+
+}
+.form-control{
+    margin:5px 0px;
+    padding: 5px;
+    border: none;
+    width: 200px;
+    border-radius: 3px;
+    box-shadow:palegreen;
+    outline:none;
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.form-group label{
+    font-weight:bold;
+    font-variant:small-caps;
+}
+.form-control:focus{
+    background-color:yellow;
+    box-shadow:0px 0px 3px red;
+    border: 1px solid yellow;
+}
+.form-button{ 
+    padding: 8px 30px;
+    outline:none;
+    border:none;
+    border-radius:20px;
+    font-weight:bold;
+    background-color:white;
+    color:orangered;
+    box-shadow:inset 0px 0px 20px blue;
+}
+.form-button:hover{
+    color:blue;
+    box-shadow:inset 0px 0px 20px orangered;
+}
+.form-button:disabled{
+    color:darkgray;
+    box-shadow:inset 0px 0px 20px gray;
+}
+table{
+        
+        width: 85%;
+        line-height: 40px;
+        bottom: 50px;
+        border-collapse: collapse;
+}
+
+
+td, th{
+    border: 2px solid rgb(140, 140, 192);
+    
+}
+
+
+tr:first-child{
+    background-color: rgb(74, 74, 197);
+    width:100px;
+}
+
+.row1{
+    height: 50px;
+}
+.column1{
+    width: 320px;
+    border: none;
+    margin: 20px;
+    float: left;
+  
+    
+
+}
+.column2{
+    width: 650px;
+    border: none;
+    margin: 20px;
+    float: left;
+    height: 250px;
+
+}
+.column2>h2{
+    color: blue;
+}
